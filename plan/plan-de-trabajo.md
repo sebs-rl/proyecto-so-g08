@@ -1,8 +1,7 @@
 
-# Ficha de verificación de versiones
+# Plan de trabajo - Grupo 8
 ## Proyecto Final - Sistemas Operativos 2026-2
 
-**Grupo:** 8  
 **Sede:** Yumbo  
 
 | Integrante | Rol | Qué hace |
