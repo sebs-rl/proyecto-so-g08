@@ -7,8 +7,8 @@
 | Integrante | Rol | Qué hace |
 |---|---|---|
 |	Jorge Arley	| Por definir | Por definir |
-|	Saray Quintero  | Por definir | Por definir |
-|	Sebastian Ramirez	| Por definir | Por definir |
+|	Saray Quintero  | Maquinas Virtuales y red | Por definir |
+|	Sebastian Ramirez	| Coordinación y repositorio | Por definir |
 |	Daniel Realpe	| Por definir | Por definir |
 
 ---
