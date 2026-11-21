@@ -24,8 +24,6 @@
 | Guía oficial para instalar Docker Engine en esa familia | Sí. Docker incluye AlmaLinux entre las plataformas compatibles y ofrece documentación para instalar Docker Engine en sistemas de la familia RHEL. | https://docs.docker.com/engine/install/rhel/ |
 | Imagen base del Dockerfile para esa versión | No aplica. AlmaLinux corresponde a la máquina virtual de consola; la imagen base asignada al grupo para Docker es Debian. | https://hub.docker.com/_/debian |
 
-### Debian
-
 ### Debian (imagen base de Docker)
 
 | Pregunta | Respuesta | Enlace donde lo comprobamos |
