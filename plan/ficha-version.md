@@ -2,8 +2,6 @@
 
 ## Distribuciones:
 
-### Pop!_OS
-
 ### Pop!_OS (VM gráfica)
 
 | Pregunta | Respuesta | Enlace donde lo comprobamos |
@@ -14,8 +12,6 @@
 | ¿El instalador permite particionado manual? | Sí. El instalador ofrece la opción Avanzada, que permite configurar las particiones. | https://support.system76.com/support/install-pop |
 | Guía oficial para instalar Docker Engine en esa familia | Pop!_OS está basado en Ubuntu. Se puede consultar la guía de Docker para Ubuntu, aunque Docker aclara que la instalación en distribuciones derivadas no está oficialmente soportada. | https://docs.docker.com/engine/install/ubuntu/ |
 | Imagen base del Dockerfile para esa versión | No aplica. Pop!_OS es la distribución de la máquina virtual gráfica; la imagen base asignada al grupo para Docker es Debian. | https://hub.docker.com/_/debian |
-
-### AlmaLinux
 
 ### AlmaLinux (VM de consola)
 
