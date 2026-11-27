@@ -4,18 +4,20 @@
 - **Qué se entrega en el campus:** el enlace de este sitio de github.
 - **Qué más:** el video de 3 minutos, 2 commits por integrante y el archivo `codigo_sprint1.txt` en el home del usuario principal de las dos Maquinas Virtuales.
 
-## VM Grafica (g08-grafica)
+## 1. VM gráfica (g08-grafica)
+
 ### Pop!_OS
-Para la máquina virtual gráfica utilizamos Pop!_OS 24.04 LTS, una distribución de Linux que cuenta con un entorno de escritorio y permite interactuar con el sistema mediante ventanas, aplicaciones y una terminal.
 
-La máquina virtual fue creada en VirtualBox con el nombre `g08-grafica`. Durante la instalación se realizó el particionado manual del disco, separando los archivos del sistema operativo de los archivos personales del usuario.
+Para la máquina virtual gráfica utilizamos Pop!_OS 26.04 LTS, una distribución de Linux que cuenta con el entorno de escritorio COSMIC, el cual permite interactuar con el sistema mediante ventanas, aplicaciones y una terminal.
 
-Para comprobar su funcionamiento, se inició el sistema y se utilizaron comandos desde la terminal para verificar el almacenamiento y la configuración de las particiones.
+La máquina virtual fue creada en VirtualBox con el nombre `g08-grafica` y un disco virtual de 25 GiB. Durante la instalación realizamos el particionado manual del disco para separar los archivos del sistema operativo de los archivos personales del usuario.
+
+### Particiones del disco
 
 | **Partición** | **Tamaño** | **Función** |
 |---|---|---|
 | `/` (sda1) | 13,3 GiB | Almacena el sistema operativo y los programas instalados. |
-| Swap (sda2) | 2 GiB | Funciona como memoria de intercambio para apoyar el uso de la memoria RAM. |
+| Swap (sda2) | 2 GiB | Funciona como memoria de intercambio y sirve de apoyo a la memoria RAM. |
 | `/home` (sda3) | 9,7 GiB | Almacena los archivos personales y las configuraciones del usuario. |
 
 Dos navegadores y dos editores instalados: Firefox y Chromium, nano y gedit.
