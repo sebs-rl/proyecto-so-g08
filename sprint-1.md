@@ -24,7 +24,7 @@ Comandos: `lsblk`, `df -h`, `cat /etc/fstab`
 
 **[Captura 1: editor de particiones durante la instalación]**
 
-**[Captura 2: lsblk, df -h y cat /etc/fstab, con el prompt usuario@g07-grafica y la salida de date]**
+![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/1a1f3bf16e954b344070957fba4c1242aa4a1fef/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20140024.png)
 
 **[Captura 3: los dos navegadores y los dos editores abiertos]**
 
