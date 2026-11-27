@@ -1,112 +1,449 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Sistemas Operativos | Grupo 08</title>
+
+    <meta name="description"
+        content="Proyecto Final de Sistemas Operativos de la Universidad del Valle. Grupo 08, semestre 2026-2.">
+
+    <meta name="theme-color" content="#0b1730">
+
+    <title>Sistemas Operativos | Grupo 08 - Universidad del Valle</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Proyecto Final - Sistemas Operativos</h1>
-        <p>Universidad del Valle | Sede Yumbo</p>
-        <p>Grupo 08 - Semestre 2026-2</p>
+    <!-- NAVEGACIÓN PRINCIPAL -->
+    <header class="hero" id="inicio">
+
+        <nav class="navbar container" aria-label="Navegación principal">
+
+            <a href="index.html" class="logo" aria-label="Inicio Grupo 08">
+                <span class="logo-icon">SO</span>
+
+                <span class="logo-text">
+                    Grupo 08
+                    <small>Universidad del Valle</small>
+                </span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#inicio" class="active">Inicio</a>
+                <a href="#proyecto">Proyecto</a>
+                <a href="#equipo">Integrantes</a>
+                <a href="#sistemas">Sistemas</a>
+                <a href="#sprints">Sprints</a>
+            </div>
+
+            <a href="sprint1.html" class="nav-button">
+                Ver Sprint 1 <span aria-hidden="true">↗</span>
+            </a>
+
+        </nav>
+
+        <!-- PRESENTACIÓN -->
+        <div class="hero-content container">
+
+            <div class="hero-text">
+
+                <span class="eyebrow">
+                    PROYECTO ACADÉMICO · 2026-2
+                </span>
+
+                <h1>
+                    Explorando el mundo de los
+                    <span>Sistemas Operativos.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Un espacio para documentar, experimentar y demostrar
+                    nuestros conocimientos en sistemas operativos,
+                    virtualización, redes y tecnologías de contenedores.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="sprint1.html" class="btn btn-primary">
+                        Explorar Sprint 1 →
+                    </a>
+
+                    <a href="#proyecto" class="btn btn-outline">
+                        Conocer el proyecto
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- INFORMACIÓN DEL PROYECTO -->
+            <div class="hero-info">
+
+                <div class="info-item">
+                    <strong>08</strong>
+                    <span>Grupo de trabajo</span>
+                </div>
+
+                <div class="info-item">
+                    <strong>2026-2</strong>
+                    <span>Periodo académico</span>
+                </div>
+
+                <div class="info-item">
+                    <strong>Yumbo</strong>
+                    <span>Sede universitaria</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hero-decoration" aria-hidden="true"></div>
+
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="sprint1.html">Sprint 1</a>
-    </nav>
 
-    <main>
-        <section class="presentacion">
-            <h2>Bienvenidos a nuestro proyecto</h2>
-            <p>
-                En este sitio documentamos el desarrollo del
-                proyecto final de la asignatura Sistemas Operativos,
-                mostrando los procedimientos, configuraciones,
-                comandos y resultados obtenidos durante cada sprint.
+    <main class="container">
+
+        <!-- DESCRIPCIÓN DEL PROYECTO -->
+        <section class="section intro-section" id="proyecto">
+
+            <div class="section-heading">
+
+                <span class="section-label">01 / SOBRE EL PROYECTO</span>
+
+                <h2>Construyendo conocimiento tecnológico</h2>
+
+                <p>
+                    Aprendizaje práctico, investigación y trabajo colaborativo.
+                </p>
+
+            </div>
+
+            <p class="intro-text">
+                Este sitio web presenta el desarrollo del Proyecto Final
+                de la asignatura Sistemas Operativos de la Universidad
+                del Valle. Aquí documentamos las actividades realizadas,
+                configuraciones, procedimientos técnicos, comandos y
+                evidencias obtenidas durante cada sprint.
             </p>
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+
+                    <span class="feature-icon">01</span>
+
+                    <h3>Aprendizaje práctico</h3>
+
+                    <p>
+                        Aplicación de conceptos mediante instalaciones,
+                        configuraciones y pruebas reales.
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <span class="feature-icon">02</span>
+
+                    <h3>Documentación técnica</h3>
+
+                    <p>
+                        Registro organizado de procedimientos,
+                        comandos y resultados obtenidos.
+                    </p>
+
+                </article>
+
+                <article class="feature-card">
+
+                    <span class="feature-icon">03</span>
+
+                    <h3>Trabajo colaborativo</h3>
+
+                    <p>
+                        Distribución de responsabilidades y desarrollo
+                        conjunto de las actividades.
+                    </p>
+
+                </article>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>Integrantes del equipo</h2>
 
-            <div class="integrantes">
-                <article>
+        <!-- INTEGRANTES -->
+        <section class="section team-section" id="equipo">
+
+            <div class="section-heading">
+
+                <span class="section-label">02 / NUESTRO EQUIPO</span>
+
+                <h2>Personas detrás del proyecto</h2>
+
+                <p>
+                    Cuatro integrantes, diferentes responsabilidades y
+                    un objetivo común.
+                </p>
+
+            </div>
+
+            <div class="team-grid">
+
+                <article class="team-card">
+
+                    <div class="avatar" aria-hidden="true">SQ</div>
+
                     <h3>Saray Quintero Díaz</h3>
-                    <p>Máquinas virtuales y red</p>
+
+                    <span class="role">
+                        Máquinas virtuales y red
+                    </span>
+
                 </article>
 
-                <article>
+                <article class="team-card">
+
+                    <div class="avatar" aria-hidden="true">SR</div>
+
                     <h3>Sebastián Ramírez</h3>
-                    <p>Coordinación y repositorio</p>
+
+                    <span class="role">
+                        Coordinación y repositorio
+                    </span>
+
                 </article>
 
-                <article>
+                <article class="team-card">
+
+                    <div class="avatar" aria-hidden="true">JM</div>
+
                     <h3>Jorge Arley Muriel</h3>
-                    <p>Docker y scripts</p>
+
+                    <span class="role">
+                        Docker y scripts
+                    </span>
+
                 </article>
 
-                <article>
+                <article class="team-card">
+
+                    <div class="avatar" aria-hidden="true">DR</div>
+
                     <h3>Daniel Alejandro Realpe</h3>
-                    <p>Desarrollo del sitio web</p>
+
+                    <span class="role">
+                        Desarrollo del sitio web
+                    </span>
+
                 </article>
+
             </div>
+
         </section>
 
-        <section>
-            <h2>Distribuciones asignadas</h2>
 
-            <div class="distribuciones">
-                <article>
+        <!-- SISTEMAS OPERATIVOS -->
+        <section class="section systems-section" id="sistemas">
+
+            <div class="section-heading">
+
+                <span class="section-label">03 / ENTORNOS TECNOLÓGICOS</span>
+
+                <h2>Sistemas y herramientas</h2>
+
+                <p>
+                    Distribuciones asignadas para el desarrollo de las actividades.
+                </p>
+
+            </div>
+
+            <div class="systems-grid">
+
+                <article class="system-card">
+
+                    <div class="system-icon" aria-hidden="true">🐧</div>
+
                     <h3>Pop!_OS</h3>
-                    <p>Máquina virtual gráfica</p>
+
+                    <p>Máquina virtual gráfica.</p>
+
+                    <span class="system-tag">Sistema operativo</span>
+
                 </article>
 
-                <article>
+                <article class="system-card">
+
+                    <div class="system-icon" aria-hidden="true">⚙️</div>
+
                     <h3>AlmaLinux</h3>
-                    <p>Máquina virtual de consola</p>
+
+                    <p>Máquina virtual de consola.</p>
+
+                    <span class="system-tag">Sistema operativo</span>
+
                 </article>
 
-                <article>
+                <article class="system-card">
+
+                    <div class="system-icon" aria-hidden="true">🐳</div>
+
                     <h3>Debian</h3>
-                    <p>Imagen base de Docker</p>
+
+                    <p>Imagen base de Docker.</p>
+
+                    <span class="system-tag">Contenedores</span>
+
                 </article>
+
             </div>
+
         </section>
 
-        <section>
-            <h2>Etapas del proyecto</h2>
 
-            <article>
-                <h3>Sprint 0 - Arranque</h3>
-                <p>Organización inicial y creación del repositorio.</p>
-            </article>
+        <!-- ETAPAS DEL PROYECTO -->
+        <section class="section timeline-section" id="sprints">
 
-            <article>
-                <h3>Sprint 1 - Montaje</h3>
-                <p>Instalación de máquinas virtuales y configuración de red.</p>
-                <a href="sprint1.html">Consultar Sprint 1</a>
-            </article>
+            <div class="section-heading">
 
-            <article>
-                <h3>Sprint 2 - Servicios</h3>
-                <p>Usuarios, permisos, firewall, scripts y Docker.</p>
-            </article>
+                <span class="section-label">04 / PLAN DE TRABAJO</span>
 
-            <article>
-                <h3>Sprint 3 - Cierre</h3>
-                <p>Contenedores, Kubernetes y finalización del proyecto.</p>
-            </article>
+                <h2>Etapas del proyecto</h2>
+
+                <p>
+                    Recorrido por las fases de desarrollo del proyecto académico.
+                </p>
+
+            </div>
+
+            <div class="timeline">
+
+                <article class="timeline-item">
+
+                    <span class="timeline-number">00</span>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-status completed">
+                            ETAPA INICIAL
+                        </span>
+
+                        <h3>Sprint 0 — Arranque</h3>
+
+                        <p>
+                            Organización del equipo, distribución de
+                            responsabilidades y creación del repositorio.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="timeline-item current">
+
+                    <span class="timeline-number">01</span>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-status in-progress">
+                            DOCUMENTACIÓN
+                        </span>
+
+                        <h3>Sprint 1 — Montaje</h3>
+
+                        <p>
+                            Instalación de máquinas virtuales y
+                            configuración de red.
+                        </p>
+
+                        <a href="sprint1.html" class="text-link">
+                            Consultar Sprint 1 →
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <article class="timeline-item">
+
+                    <span class="timeline-number">02</span>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-status planned">
+                            ETAPA PLANIFICADA
+                        </span>
+
+                        <h3>Sprint 2 — Servicios</h3>
+
+                        <p>
+                            Administración de usuarios, permisos,
+                            firewall, scripts y Docker.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="timeline-item">
+
+                    <span class="timeline-number">03</span>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-status planned">
+                            ETAPA PLANIFICADA
+                        </span>
+
+                        <h3>Sprint 3 — Cierre</h3>
+
+                        <p>
+                            Contenedores, Kubernetes y finalización
+                            del proyecto.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
         </section>
+
     </main>
 
-    <footer>
-        <p>Universidad del Valle - Grupo 08</p>
-        <p>Proyecto Final de Sistemas Operativos 2026-2</p>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div>
+                <h3>Sistemas Operativos · Grupo 08</h3>
+                <p>Universidad del Valle · Sede Yumbo</p>
+            </div>
+
+            <p class="footer-copy">
+                Proyecto Final · Semestre 2026-2
+            </p>
+
+        </div>
+
+        <div class="footer-bottom container">
+            Desarrollado con dedicación por el Grupo 08.
+        </div>
+
     </footer>
 
 </body>
