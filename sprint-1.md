@@ -12,8 +12,11 @@ La máquina virtual fue creada en VirtualBox con el nombre `g08-grafica`. Durant
 
 Para comprobar su funcionamiento, se inició el sistema y se utilizaron comandos desde la terminal para verificar el almacenamiento y la configuración de las particiones.
 
-|Particion|Tamaño|Funcion|
+| **Partición** | **Tamaño** | **Función** |
 |---|---|---|
+| `/` (sda1) | 13,3 GiB | Almacena el sistema operativo y los programas instalados. |
+| Swap (sda2) | 2 GiB | Funciona como memoria de intercambio para apoyar el uso de la memoria RAM. |
+| `/home` (sda3) | 9,7 GiB | Almacena los archivos personales y las configuraciones del usuario. |
 
 Dos navegadores y dos editores instalados: Firefox y Chromium, nano y gedit.
 
