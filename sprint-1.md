@@ -6,6 +6,11 @@
 
 ## VM Grafica (g08-grafica)
 ### Pop!_OS
+Para la máquina virtual gráfica utilizamos Pop!_OS 24.04 LTS, una distribución de Linux que cuenta con un entorno de escritorio y permite interactuar con el sistema mediante ventanas, aplicaciones y una terminal.
+
+La máquina virtual fue creada en VirtualBox con el nombre `g08-grafica`. Durante la instalación se realizó el particionado manual del disco, separando los archivos del sistema operativo de los archivos personales del usuario.
+
+Para comprobar su funcionamiento, se inició el sistema y se utilizaron comandos desde la terminal para verificar el almacenamiento y la configuración de las particiones.
 
 |Particion|Tamaño|Funcion|
 |---|---|---|
