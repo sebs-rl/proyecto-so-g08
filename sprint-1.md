@@ -24,10 +24,13 @@ Dos navegadores y dos editores instalados: Firefox y Chromium, nano y gedit.
 
 Comandos: `lsblk`, `df -h`, `cat /etc/fstab`
 
-**[Captura 1: editor de particiones durante la instalación]**
+1. partituras 
+![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/629145e6d5cb0be68bd86841bfeed40fef7487d9/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20130653.png)
 
+2. comandos ejecutados 
 ![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/1a1f3bf16e954b344070957fba4c1242aa4a1fef/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20140024.png)
 
+3. los dos navegadores 
 ![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/28520654ff769dec63c4d54122be4ab761d1dfc7/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20183926.png)
 
 ## VM Grafica (g08-grafica)
