@@ -33,6 +33,9 @@ Comandos: `lsblk`, `df -h`, `cat /etc/fstab`
 3. los dos navegadores 
 ![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/28520654ff769dec63c4d54122be4ab761d1dfc7/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20183926.png)
 
+4. editor
+![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/d47cbf99d5ac1d151226de169607e8c72da9d65d/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20184929.png)
+
 ## VM Grafica (g08-grafica)
 ### AlmaLinux
 
