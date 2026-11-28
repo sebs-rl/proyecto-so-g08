@@ -52,10 +52,10 @@ Comandos: `lsblk`, `df -h`, `cat /etc/fstab`
 
 |Particion|Tamaño|Funcion|
 |---|---|---|
-|/|5 GB|
-|/var|10 GB|
-|Swap|1 GB|
-|/home|1 GB|
+|/|5 GB|Espacio del sistema operativo base.|
+|/var|10 GB|Almacenamiento de datos variables y futura utilización de Docker.|
+|Swap|1 GB|Memoria de intercambio.|
+|/home|1 GB|Archivos del usuario.|
 
 Herramientas instaladas: make, rsync, curl, git y wget.
 
