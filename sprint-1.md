@@ -46,7 +46,8 @@ Comandos: `lsblk`, `df -h`, `cat /etc/fstab`
 
 ![Editores de texto en Pop!_OS](evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20184929.png)
 
-## VM Consola (g08-consola)
+## 2. VM de consola (g08-consola)
+
 ### AlmaLinux
 
 |Particion|Tamaño|Funcion|
