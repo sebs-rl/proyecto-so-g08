@@ -50,9 +50,25 @@ Herramientas instaladas: make, rsync, curl, git y wget.
 
 Comandos: `lsblk`, `df -h`, `cat /etc/fstab`, `make --version`, `rsync --version`, `curl --version`, `git --version`, `wget --version`
 
-**[Captura 4: lsblk, df -h y cat /etc/fstab de g07-consola, con prompt y fecha]**
+Salida de `lsblk` y `df -h`. Muestra el disco de 25 GB dividido manualmente en las particiones `/`, `/boot`, swap, `/home` y `/var`, con el tamaño y el espacio usado de cada una.
+![Captura 4: lsblk y df -h en g08-consola](img/captura4-comandos-lsblk-df%20-h.png)
 
-**[Captura 5: las cinco herramientas mostrando su versión]**
+
+Salida de `cat /etc/fstab`. Confirma que las particiones creadas durante la instalación se montan automáticamente al arrancar el sistema.
+![Captura 4: cat /etc/fstab en g08-consola](img/captura4-comando%20cat:etc:fstab.png)
+
+Salida de `make --version`. Confirma que `make` quedó instalado y funcionando.
+![Captura 5: make --version](img/captura5-version-make.png)
+
+Salida de `rsync --version`. Confirma que `rsync` quedó instalado y funcionando.
+![Captura 5: rsync --version](img/captura5-rsync-version.png)
+
+Salida de `curl --version` y `git --version`. Confirma que ambas herramientas quedaron instaladas y funcionando.
+![Captura 5: curl --version y git --version](img/captura5-curl-version-git-version.png)
+
+Salida de `wget --version`. Confirma que `wget` quedó instalado y funcionando.
+![Captura 5: wget --version](img/captura5-wget-version.png)
+
 
 ## 3. Red
 
