@@ -30,19 +30,19 @@ Comandos: `lsblk`, `df -h`, `cat /etc/fstab`
 
 ### Particionado manual del disco
 
-![Particionado manual de Pop!_OS](evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20130653.png)
+![Particionado manual de Pop!_OS](evidencias/maquina-virtual-grafica/particionado.png)
 
 ### Comandos de verificación del particionado
 
-![Comandos de almacenamiento](evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20140024.png)
+![Comandos de almacenamiento](evidencias/maquina-virtual-grafica/comandos.png)
 
 ### Navegadores instalados
 
-![Navegadores en Pop!_OS](evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20183926.png)
+![Navegadores en Pop!_OS](evidencias/maquina-virtual-grafica/navegadores.png)
 
 ### Evidencia de editores de texto
 
-![Editores de texto en Pop!_OS](evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20184929.png)
+![Editores de texto en Pop!_OS](evidencias/maquina-virtual-grafica/editores.png)
 
 ## 2. VM de consola (g08-consola)
 
@@ -60,23 +60,23 @@ Herramientas instaladas: make, rsync, curl, git y wget.
 Comandos: `lsblk`, `df -h`, `cat /etc/fstab`, `make --version`, `rsync --version`, `curl --version`, `git --version`, `wget --version`
 
 Salida de `lsblk` y `df -h`. Muestra el disco de 25 GB dividido manualmente en las particiones `/`, `/boot`, swap, `/home` y `/var`, con el tamaño y el espacio usado de cada una.
-![Captura 4: lsblk y df -h en g08-consola](img/captura4-comandos-lsblk-df%20-h.png)
+![Captura 4: lsblk y df -h en g08-consola](img/almacenamiento.png)
 
 
 Salida de `cat /etc/fstab`. Confirma que las particiones creadas durante la instalación se montan automáticamente al arrancar el sistema.
-![Captura 4: cat /etc/fstab en g08-consola](img/captura4-comando%20cat:etc:fstab.png)
+![Captura 4: cat /etc/fstab en g08-consola](img/fstab.png)
 
 Salida de `make --version`. Confirma que `make` quedó instalado y funcionando.
-![Captura 5: make --version](img/captura5-version-make.png)
+![Captura 5: make --version](img/make.png)
 
 Salida de `rsync --version`. Confirma que `rsync` quedó instalado y funcionando.
-![Captura 5: rsync --version](img/captura5-rsync-version.png)
+![Captura 5: rsync --version](img/rsync.png)
 
 Salida de `curl --version` y `git --version`. Confirma que ambas herramientas quedaron instaladas y funcionando.
-![Captura 5: curl --version y git --version](img/captura5-curl-version-git-version.png)
+![Captura 5: curl --version y git --version](img/curl-git.png)
 
 Salida de `wget --version`. Confirma que `wget` quedó instalado y funcionando.
-![Captura 5: wget --version](img/captura5-wget-version.png)
+![Captura 5: wget --version](img/wget.png)
 
 
 ## 3. Red
