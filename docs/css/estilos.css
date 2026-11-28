@@ -787,3 +787,139 @@ a:focus-visible {
     }
 
 }
+
+/* =========================================
+   13. ESTILOS DEL SPRINT 1
+========================================= */
+
+.sprint-page .hero {
+    min-height: auto;
+}
+
+.sprint-page .hero-content {
+    padding-top: 55px;
+    padding-bottom: 65px;
+}
+
+.sprint-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow);
+    overflow-x: auto;
+}
+
+.sprint-card h2 {
+    color: var(--primary);
+    font-size: 26px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+}
+
+.sprint-card h3 {
+    color: var(--secondary);
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.sprint-card p {
+    margin-bottom: 12px;
+}
+
+.sprint-card a {
+    color: var(--accent-dark);
+}
+
+.sprint-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.sprint-table th {
+    background: var(--primary);
+    color: white;
+    text-align: left;
+}
+
+.sprint-table th,
+.sprint-table td {
+    padding: 12px;
+    border: 1px solid var(--border);
+}
+
+.sprint-table tr:nth-child(even) {
+    background: var(--background);
+}
+
+.sprint-card pre {
+    background: var(--primary);
+    color: #e2e8f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 18px 0;
+    overflow-x: auto;
+    font-size: 14px;
+}
+
+.sprint-card figure {
+    margin: 25px 0;
+}
+
+.sprint-card figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+}
+
+.sprint-card figcaption {
+    color: var(--muted);
+    font-size: 13px;
+    text-align: center;
+    padding: 12px;
+}
+
+.sprint-card .pending {
+    color: var(--muted);
+    background: var(--background);
+    border-left: 3px solid var(--accent);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.sprint-card iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 12px;
+}
+
+.sprint-page .footer .btn {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .sprint-card {
+        padding: 18px;
+    }
+
+    .sprint-card h2 {
+        font-size: 21px;
+    }
+
+    .sprint-table {
+        font-size: 12px;
+    }
+
+    .sprint-table th,
+    .sprint-table td {
+        padding: 8px;
+    }
+}
