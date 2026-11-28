@@ -103,6 +103,6 @@ Comando: `ssh usuario@direccion-de-la-consola`
 
 Una por VM, llamada `instalacion-limpia`, tomada con la VM apagada y la instalación terminada.
 
-**[Captura 9: pestaña de instantáneas de g07-grafica]**
+**[Captura 9: pestaña de instantáneas de g08-grafica]**
 
-**[Captura 10: pestaña de instantáneas de g07-consola]**
+**[Captura 10: pestaña de instantáneas de g08-consola]**
