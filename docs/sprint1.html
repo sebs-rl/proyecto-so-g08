@@ -1,0 +1,255 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 1 | Grupo 08</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="sprint-page">
+
+<header class="hero">
+    <nav class="navbar container">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">SO</span>
+            <span class="logo-text">Grupo 08</span>
+        </a>
+
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="#grafica">VM gráfica</a>
+            <a href="#consola">VM consola</a>
+            <a href="#red">Red</a>
+            <a href="#ssh">SSH</a>
+            <a href="#instantaneas">Instantáneas</a>
+        </div>
+    </nav>
+
+    <div class="hero-content container">
+        <span class="eyebrow">SISTEMAS OPERATIVOS · 2026-2</span>
+        <h1>Sprint 1 <span>Montaje de máquinas virtuales</span></h1>
+        <p class="hero-description">
+            Universidad del Valle - Sede Yumbo | Grupo 08
+        </p>
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="sprint-card" id="grafica">
+        <h2>1. Máquina virtual gráfica</h2>
+        <h3>Pop!_OS — g08-grafica</h3>
+
+        <!-- Agregar explicación del procedimiento realizado -->
+
+        <h3>Particionado manual</h3>
+
+        <table class="sprint-table">
+            <thead>
+                <tr>
+                    <th>Partición</th>
+                    <th>Tamaño registrado</th>
+                    <th>Justificación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>/</td><td>13,3 GiB</td><td>Pendiente</td></tr>
+                <tr><td>Swap</td><td>2 GiB</td><td>Pendiente</td></tr>
+                <tr><td>/home</td><td>9,7 GiB</td><td>Pendiente</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Comandos de verificación</h3>
+        <pre><code>lsblk
+df -h
+cat /etc/fstab</code></pre>
+
+        <figure>
+            <img src="img/sprint1/grafica/particionado.png" alt="Particionado manual de Pop!_OS">
+            <figcaption>Particionado manual del disco.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/sprint1/grafica/comandos.png" alt="Comandos de almacenamiento">
+            <figcaption>Verificación del almacenamiento.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/sprint1/grafica/navegadores.png" alt="Navegadores instalados">
+            <figcaption>Navegadores.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/sprint1/grafica/editores.png" alt="Evidencia de editores">
+            <figcaption>Editores de texto.</figcaption>
+        </figure>
+    </section>
+
+    <section class="sprint-card" id="consola">
+        <h2>2. Máquina virtual de consola</h2>
+        <h3>AlmaLinux — g08-consola</h3>
+
+        <!-- Agregar explicación del procedimiento realizado -->
+
+        <table class="sprint-table">
+            <thead>
+                <tr>
+                    <th>Partición</th>
+                    <th>Tamaño registrado</th>
+                    <th>Justificación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>/</td><td>5 GB</td><td>Pendiente</td></tr>
+                <tr><td>/var</td><td>10 GB</td><td>Pendiente</td></tr>
+                <tr><td>Swap</td><td>1 GB</td><td>Pendiente</td></tr>
+                <tr><td>/home</td><td>1 GB</td><td>Pendiente</td></tr>
+            </tbody>
+        </table>
+
+        <h3>Comandos de almacenamiento</h3>
+        <pre><code>lsblk
+df -h
+cat /etc/fstab</code></pre>
+
+        <figure>
+            <img src="img/sprint1/consola/almacenamiento.png" alt="Comandos lsblk y df -h">
+            <figcaption>Almacenamiento de AlmaLinux.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/sprint1/consola/fstab.png" alt="Archivo fstab">
+            <figcaption>Contenido de /etc/fstab.</figcaption>
+        </figure>
+
+        <h3>Herramientas instaladas</h3>
+
+        <pre><code>make --version
+rsync --version
+curl --version
+git --version
+wget --version</code></pre>
+
+        <figure>
+            <img src="img/sprint1/consola/make.png" alt="Versión de make">
+            <figcaption>make --version</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/sprint1/consola/rsync.png" alt="Versión de rsync">
+            <figcaption>rsync --version</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/sprint1/consola/curl-git.png" alt="Versiones de curl y git">
+            <figcaption>curl y git.</figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/sprint1/consola/wget.png" alt="Versión de wget">
+            <figcaption>wget --version</figcaption>
+        </figure>
+    </section>
+
+    <section class="sprint-card" id="red">
+        <h2>3. Configuración de red</h2>
+        <h3>Configuración requerida</h3>
+        <p>Adaptador 1: NAT.</p>
+        <p>Adaptador 2: red solo-anfitrión.</p>
+
+        <pre><code>ip a
+ping</code></pre>
+
+        <p class="pending">Evidencias pendientes de incorporar.</p>
+    </section>
+
+    <section class="sprint-card" id="ssh">
+        <h2>4. Conexión SSH</h2>
+
+        <pre><code>ssh usuario@direccion-de-la-consola</code></pre>
+
+        <p class="pending">Evidencia pendiente de incorporar.</p>
+    </section>
+
+    <section class="sprint-card" id="instantaneas">
+        <h2>5. Instantáneas</h2>
+
+        <p>Nombre requerido: instalacion-limpia.</p>
+        <p>Máquinas: g08-grafica y g08-consola.</p>
+
+        <p class="pending">Evidencias pendientes de incorporar.</p>
+    </section>
+
+    <section class="sprint-card">
+        <h2>Código del Sprint 1</h2>
+
+        <pre><code>cat codigo_sprint1.txt
+date</code></pre>
+
+        <p class="pending">Pendiente de verificar.</p>
+    </section>
+
+    <section class="sprint-card" id="video">
+        <h2>Video del Sprint 1</h2>
+
+        <p class="pending">Pendiente de publicación.</p>
+
+        <!-- Insertar aquí el video de YouTube -->
+    </section>
+
+    <section class="sprint-card">
+        <h2>Participación de los integrantes</h2>
+
+        <table class="sprint-table">
+            <thead>
+                <tr>
+                    <th>Integrante</th>
+                    <th>Aporte realizado</th>
+                    <th>Commits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Saray Quintero Díaz</td><td>Pendiente</td><td>Por verificar</td></tr>
+                <tr><td>Sebastián Ramírez</td><td>Pendiente</td><td>Por verificar</td></tr>
+                <tr><td>Jorge Arley Muriel</td><td>Pendiente</td><td>Por verificar</td></tr>
+                <tr><td>Daniel Alejandro Realpe</td><td>Pendiente</td><td>Por verificar</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="sprint-card">
+        <h2>Fuentes consultadas</h2>
+
+        <p>Guías de Sistemas Operativos proporcionadas por el docente.</p>
+
+        <p>
+            <a href="https://github.com/joalcasta-uv/so-proyecto-final-demo">
+                Repositorio de ejemplo del profesor
+            </a>
+        </p>
+
+        <h3>Declaración de uso de inteligencia artificial</h3>
+
+        <!-- Registrar las herramientas utilizadas y su propósito -->
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <h3>Grupo 08 — Sistemas Operativos</h3>
+        <p>Universidad del Valle | 2026-2</p>
+
+        <a class="btn btn-outline" href="index.html">
+            Volver al inicio
+        </a>
+
+        <a class="btn btn-outline" href="https://github.com/sebs-rl/proyecto-so-g08">
+            Repositorio GitHub
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
