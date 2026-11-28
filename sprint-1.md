@@ -1,6 +1,6 @@
 # Sprint 1 | Montaje de máquinas virtuales
 
-[Volver al inicio](https://sebs-rl.github.io/proyecto-so-g08/)
+[Volver al inicio]([https://github.com/sebs-rl/proyecto-so-g08](https://github.com/sebs-rl/proyecto-so-g08))
 
 - **Grupo:** 08.
 - **Asignatura:** Sistemas Operativos.
