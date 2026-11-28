@@ -36,7 +36,7 @@ Comandos: `lsblk`, `df -h`, `cat /etc/fstab`
 4. editor
 ![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/d47cbf99d5ac1d151226de169607e8c72da9d65d/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20184929.png)
 
-## VM Grafica (g08-grafica)
+## VM Grafica (g08-consola)
 ### AlmaLinux
 
 |Particion|Tamaño|Funcion|
