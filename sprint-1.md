@@ -30,17 +30,21 @@ Dos navegadores y dos editores instalados: Firefox y Chromium, nano y gedit.
 
 Comandos: `lsblk`, `df -h`, `cat /etc/fstab`
 
-1. partituras 
-![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/629145e6d5cb0be68bd86841bfeed40fef7487d9/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20130653.png)
+### Particionado manual del disco
 
-2. comandos ejecutados 
-![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/1a1f3bf16e954b344070957fba4c1242aa4a1fef/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20140024.png)
+![Particionado manual de Pop!_OS](evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20130653.png)
 
-3. los dos navegadores 
-![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/28520654ff769dec63c4d54122be4ab761d1dfc7/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20183926.png)
+### Comandos de verificación del particionado
 
-4. editor
-![image alt](https://github.com/sebs-rl/proyecto-so-g08/blob/d47cbf99d5ac1d151226de169607e8c72da9d65d/evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20184929.png)
+![Comandos de almacenamiento](evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20140024.png)
+
+### Navegadores instalados
+
+![Navegadores en Pop!_OS](evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20183926.png)
+
+### Evidencia de editores de texto
+
+![Editores de texto en Pop!_OS](evidencias/maquina-virtual-grafica/Captura%20de%20pantalla%202026-11-27%20184929.png)
 
 ## VM Consola (g08-consola)
 ### AlmaLinux
